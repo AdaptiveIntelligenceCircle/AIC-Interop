@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/send-result.schema.json",
+  "title": "AIC Bridge Send Result (sketch)",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "string",
+      "enum": ["allowed", "denied"]
+    },
+    "from_net": { "type": "string" },
+    "to_net": { "type": "string" }
+  },
+  "required": ["result"],
+  "additionalProperties": true
+}

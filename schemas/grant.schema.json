@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/bridge-grant.schema.json",
+  "title": "AIC Bridge Grant (sketch)",
+  "description": "Experimental ordered grant. Pre-Covenant. Not a wire standard.",
+  "type": "object",
+  "properties": {
+    "from_net": { "type": "string", "minLength": 1 },
+    "to_net": { "type": "string", "minLength": 1 }
+  },
+  "required": ["from_net", "to_net"],
+  "additionalProperties": false
+}
