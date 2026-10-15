@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://adaptiveintelligencecircle.example/schemas/send-result.schema.json",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/send_result.schema.json",
   "title": "AIC Bridge Send Result (sketch)",
   "type": "object",
   "properties": {
